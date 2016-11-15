@@ -1,0 +1,23 @@
+{
+  "name": "webqq-by-react-framework7",
+  "description": "A webqq project based react & framework7.",
+  "main": "index.js",
+  "authors": [
+    "Zephyr.Chan"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "webqq",
+    "react",
+    "framework7"
+  ],
+  "homepage": "https://github.com/ZephyrChan1222/webqq-by-react-framework7",
+  "private": true,
+  "dependencies": {
+    "react": "^15.3.2",
+    "framework7": "^1.5.0"
+  },
+  "devDependencies": {
+    "requirejs": "requirejs/requirejs#^2.3.2"
+  }
+}

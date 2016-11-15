@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#2196f3">
+    <title>My App</title>
+    <!-- bower:js -->
+    <script src="/bower_components/react/react.js"></script>
+    <script src="/bower_components/react/react-dom.js"></script>
+    <!-- endbower -->
+  </head>
+  <body>
+    <!-- Views -->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Pages container, because we use fixed navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-fixed toolbar-fixed">
+          <!-- Page, "data-page" contains page name -->
+          <div data-page="index" class="page">
+ 
+            <!-- Top Navbar. In Material theme it should be inside of the page-->
+            <div class="navbar">
+              <div class="navbar-inner">
+                <div class="center">Awesome App</div>
+              </div>
+            </div>
+ 
+            <!-- Bottom Toolbar. In Material theme it should be inside of the page-->
+            <div class="toolbar">
+              <div class="toolbar-inner">
+                <!-- Toolbar links -->
+                <a href="#" class="link">Link 1</a>
+                <a href="#" class="link">Link 2</a>
+              </div>
+            </div>
+ 
+            <!-- Scrollable page content -->
+            <div class="page-content">
+              <p>Page content goes here</p>
+              <!-- Link to another page -->
+              <a href="about.html">About app</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script data-main="app.js" src="bower_components/requirejs/requirejs.js"></script>
+  </body>
+</html> 
